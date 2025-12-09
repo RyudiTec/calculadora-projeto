@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(135deg, #eaeaea, #cfcfcf);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+
+.calculator {
+    width: 340px;
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+
+.display{
+    width: 100%;
+    height: 90px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #000;
+    color: #00ff9c;
+    font-size: 3rem;
+    text-align: right;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+.calculator-buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+.calculator button{
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.4rem;
+    background: #2a2a2a;
+    color: #fff;
+    transition: 0.15s;
+}
+
+
+.calculator button:hover{
+    background: #3a3a3a;
+}
+
+button[id*="operador"],
+#igual{
+    background: #ff9500;
+    color: #000;
+    font-weight: bold;
+}
+
+button[id*="operador"]:hover,
+#igual:hover{
+    background: #ffa733;
+}
+
+
+#limparDisplay,
+#limparCalculo,
+#backspace{
+    background: #444;
+}
+
+#limparDisplay:hover,
+#limparCalculo:hover,
+#backspace:hover{
+    background: #666;
+}
+
+.calculator button:active{
+    transform: scale(0.95);
+}
