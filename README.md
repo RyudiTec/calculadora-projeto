@@ -6,3 +6,5 @@ No JavaScript, aprendi a capturar os cliques nos botões, mostrar os valores no 
 
 Além disso, o código permite limpar o visor e corrigir valores digitados. Esse projeto me ajudou a praticar lógica de programação, eventos de clique e manipulação do DOM com JavaScript.
 
+visite minha calculadora  https://ryuditec.github.io/calculadora-projeto/
+
